@@ -2,7 +2,7 @@
 import random
 error=0
 list = []
-for a in range(10000):
+for a in range(1000):
     foundno = 0
     for i in range(100):
         gotoprize = 4
@@ -36,7 +36,4 @@ for a in range(10000):
             else:
                 print('d')
     list.append(foundno)
-print(sum(list) / len(list))
-print(list)
-
-
+print("Chance of getting the daily prize: ", sum(list) / len(list), "%")
